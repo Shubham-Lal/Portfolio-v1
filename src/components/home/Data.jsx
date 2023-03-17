@@ -11,7 +11,7 @@ export default function Data() {
       </h1>
       <h3 className="home__subtitle">Tech Enthusiast</h3>
       <p className="home__description">
-        A passionate teen developer from India who strictly keeps a record of every moment he spends.
+        A passionate teen developer from India who utilizes every second he spends.
       </p>
 
       <a href={`https://api.whatsapp.com/send?phone=${process.env.REACT_APP_PHONE_NO}&text=Namaste Shubham`} className="button button--flex" target="_blank" rel="noopener noreferrer">
