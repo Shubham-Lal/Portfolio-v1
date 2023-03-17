@@ -14,11 +14,11 @@ export default function Data() {
         A passionate teen developer from India who strictly keeps a record of every moment he spends.
       </p>
 
-      <a href="https://api.whatsapp.com/send?phone=9163161834&text=Namaste Shubham" className="button button--flex" target="_blank" rel="noopener noreferrer">
+      <a href={`https://api.whatsapp.com/send?phone=${process.env.REACT_APP_PHONE_NO}&text=Namaste Shubham`} className="button button--flex" target="_blank" rel="noopener noreferrer">
         Say Namaste
         <img src={Send} height={24} width={24} className="button__icon" alt="" />
       </a>
-      <a href="https://stackoverflowteams.com/c/certified" className="button-white button--flex" target="_blank" rel="noopener noreferrer">
+      <a href={`https://stackoverflowteams.com/c/${process.env.REACT_APP_TEAM_NAME}`} className="button-white button--flex" target="_blank" rel="noopener noreferrer">
         Collaborate
         <img src={Community} height={24} width={24} className="button__icon" alt="" />
       </a>

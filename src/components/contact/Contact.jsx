@@ -62,7 +62,7 @@ export default function Contact() {
                             <span className="contact__card-data">+91 91631 61834</span>
 
                             <a
-                                href="https://api.whatsapp.com/send?phone=9163161834&text=Namaste Shubham"
+                                href={`https://api.whatsapp.com/send?phone=${process.env.REACT_APP_PHONE_NO}&text=Namaste Shubham`}
                                 className="contact__button"
                                 target="_blank" rel="noopener noreferrer"
                             >
