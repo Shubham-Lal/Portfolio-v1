@@ -1,6 +1,5 @@
 import "./about.css";
 import AboutImg from "../../assets/about.jpg";
-import ResumePdf from "../../assets/Resume-Shubham-Lal.pdf";
 import FilesSVG from "../../assets/files.svg";
 import Info from "./Info";
 
@@ -24,11 +23,9 @@ export default function About() {
                             it's how I describe myself as a developer. It has been a great journey so far. As long as we are committed, we can learn something new every day.
                         </span>
                         I anticipate a bright future thanks to my parents' encouragement and the friendship of my brother-like-friends.
-                        {/* <span>I start my day reading newspaper in the morning, a few hours later dive into Game development for couple of hours and work on Websites all day along.</span>
-                        At night, I practise some problems on Leetcode and Codeforces on the topics related to Data Structure and work out on some algorithm. */}
                     </p>
 
-                    <a href={ResumePdf} className="button button--flex" target="_blank" rel="noopener noreferrer" >
+                    <a href="/Resume-Shubham-Lal.pdf" className="button button--flex" target="_blank" rel="noopener noreferrer" >
                         My Resume
                         <img src={FilesSVG} className="button__icon" alt="" />
                     </a>
