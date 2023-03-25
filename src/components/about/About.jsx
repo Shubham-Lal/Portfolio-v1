@@ -19,10 +19,15 @@ export default function About() {
 
                     <p className="about__description">
                         <span className="about__hobbies">Full-Stack Developer | Game Dev | Software Programmer | App Developer</span>
-                        <span>From saving PowerPoint slides as HTML webpages to creating Full-Stack Web applications; from being mobile gamer to creating Video Games,
-                            it's how I describe myself as a developer. It has been a great journey so far. As long as we are committed, we can learn something new every day.
+                        <span>
+                            As a developer, my journey has been a remarkable one, encompassing a vast array of experiences. From the humble beginnings of saving PowerPoint slides as HTML webpages to crafting intricate Full-Stack Web applications, I have embarked on a journey of constant learning and growth. With a passion for gaming, I have ventured into the exciting world of Video Game design, where I continue to explore and innovate.
                         </span>
-                        I anticipate a bright future thanks to my parents' encouragement and the friendship of my brother-like-friends.
+                        <span>
+                            Throughout my journey, I have come to appreciate the value of dedication and commitment. I firmly believe that with unwavering determination and an insatiable appetite for knowledge, we can learn something new every day. My parents have been a constant source of encouragement, providing the support and guidance that I needed to pursue my dreams. Alongside them, my brother-like friends have been an integral part of my journey, offering unwavering support and camaraderie.
+                        </span>
+                        <span>
+                            With such incredible support, I am confident of a bright future filled with boundless opportunities. I look forward to continuing my journey of discovery, exploring new horizons and pushing the limits of what is possible.
+                        </span>
                     </p>
 
                     <a href="/Resume-Shubham-Lal.pdf" className="button button--flex" target="_blank" rel="noopener noreferrer" >
