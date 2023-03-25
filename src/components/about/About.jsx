@@ -19,6 +19,7 @@ export default function About() {
 
                     <p className="about__description">
                         <span className="about__hobbies">Full-Stack Developer | Game Dev | Software Programmer | App Developer</span>
+                        <br />
                         <span>
                             As a developer, my journey has been a remarkable one, encompassing a vast array of experiences. From the humble beginnings of saving PowerPoint slides as HTML webpages to crafting intricate Full-Stack Web applications, I have embarked on a journey of constant learning and growth. With a passion for gaming, I have ventured into the exciting world of Video Game design, where I continue to explore and innovate.
                         </span>
