@@ -22,9 +22,11 @@ export default function About() {
                         <span>
                             As a developer, my journey has been a remarkable one, encompassing a vast array of experiences. From the humble beginnings of saving PowerPoint slides as HTML webpages to crafting intricate Full-Stack Web applications, I have embarked on a journey of constant learning and growth. With a passion for gaming, I have ventured into the exciting world of Video Game design, where I continue to explore and innovate.
                         </span>
+                        <br />
                         <span>
                             Throughout my journey, I have come to appreciate the value of dedication and commitment. I firmly believe that with unwavering determination and an insatiable appetite for knowledge, we can learn something new every day. My parents have been a constant source of encouragement, providing the support and guidance that I needed to pursue my dreams. Alongside them, my brother-like friends have been an integral part of my journey, offering unwavering support and camaraderie.
                         </span>
+                        <br />
                         <span>
                             With such incredible support, I am confident of a bright future filled with boundless opportunities. I look forward to continuing my journey of discovery, exploring new horizons and pushing the limits of what is possible.
                         </span>
