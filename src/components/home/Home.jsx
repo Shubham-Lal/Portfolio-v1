@@ -10,8 +10,8 @@ export default function Home() {
                 <div className="home__content grid">
                     <Social />
 
-                    <div>
-                        <img src="/profile.jpg" className="home__img" alt="me" />
+                    <div className="home__img">
+                        <img src="/profile.jpg" alt="me" />
                     </div>
 
                     <Data />
