@@ -12,7 +12,7 @@ export default function Home() {
 
                     <div className="home__img">
                         <img src="../../assets/profile.jp" alt="me" />
-                    </>
+                    </div>
 
                     <Data />
                 </div>
