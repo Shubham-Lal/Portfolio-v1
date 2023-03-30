@@ -11,7 +11,12 @@ export default function Home() {
                     <Social />
 
                     <div>
-                        <img src="/profile.jpg" alt="me" className="home__img" />
+                        <img 
+                            src="/profile.jpg" 
+                            alt="me" 
+                            className="home__img" 
+                            loading="lazy" 
+                        />
                     </div>
 
                     <Data />
