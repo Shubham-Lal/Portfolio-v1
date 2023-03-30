@@ -10,7 +10,7 @@ export default function About() {
             <span className="section__subtitle">My Insights</span>
 
             <div className="about__container container grid">
-                <img src={AboutImg} alt="Shubham-Second" className="about__img" />
+                <img src={AboutImg} alt="Shubham-Second" className="about__img" loading="lazy" />
                 <p className="about__hobby">
                     Full-Stack Developer | Game Dev | Software Programmer | App Developer
                 </p>
