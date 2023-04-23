@@ -1,8 +1,15 @@
 import { useEffect } from "react";
 import { useState } from "react";
 import { projectsData } from "./Data";
-import { projectsNav } from "./Data"; import WorkItems from "./WorkItems";
-;
+import { projectsNav } from "./Data";
+import WorkItems from "./WorkItems";
+
+// Swiper
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css";
+import "swiper/css/pagination";
+import "swiper/css/navigation";
+import { Pagination, Navigation } from "swiper";
 
 export default function Works() {
     const [item, setItem] = useState({ name: "all" });
@@ -47,14 +54,22 @@ export default function Works() {
                 }
             </div>
 
-            <div className="work__container container grid">
-                {
-                    // projects.slice(0,5).map((item) => {
-                    projects.map((item, i) => {
-                        return <WorkItems item={item} key={i} />
-                    })
-                }
-            </div>
+            <Swiper
+                pagination={{
+                    type: "progressbar",
+                }}
+                navigation={true}
+                modules={[Pagination, Navigation]}
+            >
+                    <div className="work__container container grid">
+                        {
+                            // projects.slice(0,5).map((item) => {
+                            projects.map((item, i) => {
+                                return <SwiperSlide key={i}><WorkItems item={item} /></SwiperSlide>
+                            })
+                        }
+                    </div>
+            </Swiper>
         </div>
     )
 }

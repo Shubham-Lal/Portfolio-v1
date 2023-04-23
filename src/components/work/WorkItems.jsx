@@ -3,9 +3,9 @@ import React from 'react'
 export default function WorkItems({ item }) {
     return (
         <div className="work__card" key={item.id}>
-            <a href={item.link} target="_blank" rel="noopener noreferrer">
+            <div target="_blank" rel="noopener noreferrer">
                 <img src={item.image} alt="" className='work__img' />
-            </a>
+            </div>
             <div className="work__flex-column">
                 <h3 className="work__title">{item.title}</h3>
                 <span className="work__framework">{item.framework}</span>

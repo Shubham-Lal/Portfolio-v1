@@ -11,14 +11,74 @@ import Project10 from "../../assets/projects/Project10.jpg";
 import Project11 from "../../assets/projects/Project11.png";
 import Project12 from "../../assets/projects/Project12.png";
 import Project13 from "../../assets/projects/Project13.jpg";
-import Project14 from "../../assets/projects/Project14.png";
-import Project15 from "../../assets/projects/Project15.png";
-import Project16 from "../../assets/projects/Project16.png";
 
 export const projectsData = [
     {
+        id: 23,
+        image: "https://user-images.githubusercontent.com/111045472/233840735-47c1f314-2b69-4fd1-ae0d-a04734df920a.png",
+        title: "CrowdFunding",
+        framework: "Solidity & TailwindCSS",
+        link: "https://crowdfunding-eth.pages.dev",
+        button: "Site",
+        category: "web",
+    },
+    {
+        id: 22,
+        image: "https://user-images.githubusercontent.com/111045472/233840628-c94b516a-4e4c-48ba-bab0-09a4b378128c.png",
+        title: "Krypt",
+        framework: "Solidity & TailwindCSS",
+        link: "https://krypt.pages.dev",
+        button: "Site",
+        category: "web",
+    },
+    {
+        id: 21,
+        image: "https://user-images.githubusercontent.com/111045472/233840512-0a4ae0c3-c2ad-4024-850f-00f62b216ade.png",
+        title: "ToDo App",
+        framework: "MERN Stack & Redux",
+        link: "https://my-todo.pages.dev",
+        button: "Site",
+        category: "web",
+    },
+    {
+        id: 20,
+        image: "https://user-images.githubusercontent.com/111045472/233839792-fd3298c1-a607-4770-b1b0-fd795ba93cb8.png",
+        title: "CertyStore",
+        framework: "MERN Stack & TailwindCSS",
+        link: "https://certystore-v2.pages.dev",
+        button: "Site",
+        category: "web",
+    },
+    {
+        id: 19,
+        image: "https://user-images.githubusercontent.com/111045472/224488107-af646310-ac05-4b61-8add-8363514ce72d.png",
+        title: "Login with IP System",
+        framework: "MERN Stack",
+        link: "https://smart-attendance-system.pages.dev",
+        button: "Site",
+        category: "web",
+    },
+    {
+        id: 18,
+        image: "https://user-images.githubusercontent.com/111045472/223365828-7788178d-da82-4f12-9d1f-bb07f1629f89.png",
+        title: "Twitter Clone",
+        framework: "NextJS & Firebase",
+        link: "https://tclone.vercel.app",
+        button: "Site",
+        category: "web",
+    },
+    {
+        id: 17,
+        image: "https://user-images.githubusercontent.com/111045472/223370041-05d62d98-e0da-4806-a2de-ac94fceaa789.png",
+        title: "Reddit Clone",
+        framework: "NextJS, CHAKRA & Firebase",
+        link: "https://r-clone.vercel.app",
+        button: "Site",
+        category: "web",
+    },
+    {
         id: 16,
-        image: Project16,
+        image: "https://user-images.githubusercontent.com/111045472/225552712-b18db212-cfe5-4d44-bbcb-bba1fc3fcdb9.png",
         title: "Questions Answering AI",
         framework: "Vite & OPENAI",
         link: "https://question-answer.pages.dev",
@@ -27,7 +87,7 @@ export const projectsData = [
     },
     {
         id: 15,
-        image: Project15,
+        image: "https://user-images.githubusercontent.com/111045472/225551881-eedd54a2-99fa-4e50-b0e4-04c867887c3c.png",
         title: "Pics Generator",
         framework: "Vite, OPENAI & Tailwindcss",
         link: "https://image-generator.pages.dev",
@@ -36,7 +96,7 @@ export const projectsData = [
     },
     {
         id: 14,
-        image: Project14,
+        image: "https://user-images.githubusercontent.com/111045472/225552272-00b25576-9d3b-4fd0-8d11-a8208c159c3c.png",
         title: "UbuntuOS",
         framework: "NextJS & Tailwindcss",
         link: "https://ubuntuos.pages.dev",

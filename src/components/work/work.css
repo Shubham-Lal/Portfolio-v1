@@ -17,7 +17,6 @@
 }
 
 .work__item:hover {
-
     background-color: var(--title-color);
     color: var(--container-color);
 }
@@ -29,8 +28,13 @@
 }
 
 .work__card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     background-color: var(--container-color);
     border: 1px solid rgba(0, 0, 0, 0.1);
+    margin: 1rem;
     padding: 1.25rem;
     border-radius: 1rem;
 }
@@ -42,19 +46,14 @@
 
 .work__img {
     width: 295px;
-    /* height: 160px; */
     border-radius: 1rem;
     margin-bottom: var(--mb-1);
     border: 1px solid rgba(0, 0, 0, 0.1);
-    /* opacity: 0.8; */
     transition: 0.4s;
 }
 
-/* .work__img:hover {
-    opacity: 1;
-} */
-
 .work__flex-column {
+    width: 20rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -64,7 +63,6 @@
 .work__title {
     font-size: var(--normal-font-size);
     font-weight: var(--font-medium);
-    /* margin-bottom: var(--mb-0-5); */
 }
 
 .work__framework {
@@ -93,6 +91,36 @@
     color: var(--container-color);
 }
 
+.swiper .swiper-pagination-progressbar .swiper-pagination-progressbar-fill {
+    background: var(--title-color);
+}
+
+.swiper .swiper-pagination-progressbar {
+    background: transparent;
+}
+
+.swiper
+.swiper-button-next,
+.swiper .swiper-button-prev {
+    color: var(--title-color-dark);
+}
+
+@media screen and (min-width: 576px) {
+    .work__card {
+        width: 45rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .work__img {
+        width: 100%;
+    }
+}
+
 @media screen and (max-width: 992px) {
     .work__container {
         gap: 1.25rem;
@@ -100,7 +128,7 @@
 
     .work__card {
         padding: 1rem;
-    } 
+    }
 
     .work__img {
         margin-bottom: 0.75rem;
@@ -124,6 +152,12 @@
 
     .work__img {
         width: 100%;
+    }
+
+    .work__flex-column {
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
     }
 }
 

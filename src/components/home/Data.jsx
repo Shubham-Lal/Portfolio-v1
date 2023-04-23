@@ -18,10 +18,14 @@ export default function Data() {
         Say Namaste
         <img src={Send} height={24} width={24} className="button__icon" alt="" />
       </a>
-      <a href={`https://stackoverflowteams.com/c/${process.env.REACT_APP_TEAM_NAME}`} className="button-white button--flex" target="_blank" rel="noopener noreferrer">
-        Collaborate
+      <a href="/Resume-Shubham-Lal.pdf" className="button-white button--flex" target="_blank" rel="noopener noreferrer">
+        My Resume
         <img src={Community} height={24} width={24} className="button__icon" alt="" />
       </a>
+      {/* <a href={`https://stackoverflowteams.com/c/${process.env.REACT_APP_TEAM_NAME}`} className="button-white button--flex" target="_blank" rel="noopener noreferrer">
+        Collaborate
+        <img src={Community} height={24} width={24} className="button__icon" alt="" />
+      </a> */}
     </div>
   )
 }
