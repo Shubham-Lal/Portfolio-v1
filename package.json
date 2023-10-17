@@ -4,11 +4,12 @@
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^3.10.0",
+    "framer-motion": "^10.16.4",
     "react": "^18.2.0",
-    "react-checkmark": "^1.4.0",
     "react-dom": "^18.2.0",
     "react-loading-icons": "^1.1.0",
     "react-scripts": "^5.0.1",
+    "sonner": "^1.0.3",
     "swiper": "^8.4.6",
     "web-vitals": "^2.1.4"
   },

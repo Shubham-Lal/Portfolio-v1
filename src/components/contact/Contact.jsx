@@ -1,9 +1,13 @@
 import "./contact.css";
 import Send from "../../assets/send.svg";
 import emailjs from '@emailjs/browser';
+import { toast } from "sonner";
 import { useRef, useState } from "react";
 import { Oval } from 'react-loading-icons';
-import { Checkmark } from 'react-checkmark';
+import { motion, useMotionValue } from "framer-motion"
+import Checkmark from "./Checkmark";
+
+const emailVerify = /^(([^<>()\\.,;:\s@"]+(\.[^<>()\\.,;:\s@"]+)*)|(".+"))@(([0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
 
 export default function Contact() {
     const form = useRef();
@@ -11,25 +15,23 @@ export default function Contact() {
     const [nameVal, setNameVal] = useState("");
     const [emailVal, setEmailVal] = useState("");
     const [projectVal, setProjectVal] = useState("");
+    const progress = useMotionValue(90);
 
     const sendEmail = (e) => {
         e.preventDefault();
-        const emailVerify = /^(([^<>()\\.,;:\s@"]+(\.[^<>()\\.,;:\s@"]+)*)|(".+"))@(([0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+        if (!nameVal) return toast.error("Please enter your name!");
+        if (!emailVal) return toast.error("Please enter your email!");
+        if (!emailVerify.test(emailVal)) return toast.error("Invalid Email!");
+        if (!projectVal) return toast.error("Please describe youself!!");
 
-        if (emailVerify.test(emailVal)) {
-            if (nameVal !== "" && emailVal !== "" && projectVal !== "") {
-                setLoading(1);
-                emailjs.sendForm(process.env.REACT_APP_SERVICE_ID, process.env.REACT_APP_TEMPLATE_ID, form.current, process.env.REACT_APP_PUBLIC_KEY)
-                    .then(() => {
-                        setLoading(2);
-                    }, (error) => {
-                        console.log(error.text);
-                    });
-            }
-        }
-        else {
-            // Incorrect Email
-        }
+        setLoading(1);
+        emailjs.sendForm(process.env.REACT_APP_SERVICE_ID, process.env.REACT_APP_TEMPLATE_ID, form.current, process.env.REACT_APP_PUBLIC_KEY)
+            .then(() => {
+                setLoading(2);
+            }, (error) => {
+                return toast.error("Please try again after sometime...");
+                // console.log(error.text);
+            });
     };
 
     return (
@@ -86,7 +88,7 @@ export default function Contact() {
                 </div>
 
                 <div className="contact__content">
-                    <h3 className="contact__title">Write me your project</h3>
+                    <h3 className="contact__title">Anything in mind...</h3>
 
                     <form className="contact__form" ref={form}>
                         {/* INPUT 1 */}
@@ -113,27 +115,39 @@ export default function Contact() {
                         </div>
                         {/* INPUT 3 */}
                         <div className="contact__form-div contact__form-area">
-                            <label className="contact__form-tag">Project</label>
+                            <label className="contact__form-tag">Brief</label>
                             <textarea
                                 name="project"
                                 cols="30"
                                 rows="10"
                                 className="contact__form-input scrollbar"
-                                placeholder="Write your project here"
+                                placeholder="What do you want to talk about?"
                                 onChange={(e) => setProjectVal(e.target.value)}
                             />
                         </div>
-                        <button href="#contact" className="button button--flex" disabled={loading === 2 ? true : false} onClick={(e) => sendEmail(e)}>
+                        <button href="#contact" className="button button__mail" disabled={loading === 2 ? true : false} onClick={(e) => sendEmail(e)}>
                             {loading === 0 ?
                                 <>
-                                    <span>Share</span>
+                                    <span>Send</span>
                                     <img src={Send} height={24} width={24} className="button__icon" alt="" />
                                 </>
                                 : loading === 1 ?
-                                    <Oval stroke="#fff" height={25} width={25} />
-                                    : loading === 2 ?
-                                        <Checkmark color="#111" size="25px" />
-                                        : ""
+                                    <Oval stroke="#fff" height={30} width={30} />
+                                    : loading === 2 && (
+                                        <>
+                                            <motion.div
+                                                initial={{ x: 0 }}
+                                                animate={{ x: 100 }}
+                                                style={{ x: progress }}
+                                                transition={{ duration: 1 }}
+                                            />
+                                            <Checkmark
+                                                progress={progress}
+                                                size={30}
+                                                stroke={10}
+                                            />
+                                        </>
+                                    )
                             }
                         </button>
                     </form>

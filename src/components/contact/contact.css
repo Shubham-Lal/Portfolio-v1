@@ -107,6 +107,14 @@
     resize: none;
 }
 
+.button__mail {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 55px;
+  }
+
 .button .button--flex svg {
     height: 10px !important;
     width: 10px !important;
