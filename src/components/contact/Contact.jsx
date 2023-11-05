@@ -79,7 +79,7 @@ export default function Contact() {
                             <h3 className="contact__card-title">Github</h3>
                             <span className="contact__card-data">CERIFIED2003</span>
 
-                            <a href="https://github.com/CERTIFIED2003/DISCUSSIONS/issues/1" className="contact__button" target="_blank" rel="noopener noreferrer">
+                            <a href="https://github.com/Shubham-Lal/DISCUSSIONS/issues/1" className="contact__button" target="_blank" rel="noopener noreferrer">
                                 Discuss
                                 <i className="bx bx-right-arrow-alt contact__button-icon"></i>
                             </a>

@@ -25,7 +25,7 @@ export default function Footer() {
                 </ul>
 
                 <div className="footer__social">
-                    <a href="https://github.com/CERTIFIED2003" className="footer__social-link" target="_blank" rel="noreferrer">
+                    <a href="https://github.com/Shubham-Lal" className="footer__social-link" target="_blank" rel="noreferrer">
                         <i className="bx bxl-github"></i>
                     </a>
                     <a href="https://stackoverflow.com/users/21035210/shubham-lal" className="footer__social-link" target="_blank" rel="noreferrer">
