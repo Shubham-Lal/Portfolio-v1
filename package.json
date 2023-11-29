@@ -1,17 +1,16 @@
 {
-  "name": "my_insights",
+  "name": "my-portfolio-v1",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@emailjs/browser": "^3.10.0",
-    "framer-motion": "^10.16.4",
+    "@emailjs/browser": "^3.11.0",
+    "framer-motion": "^10.16.7",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-loading-icons": "^1.1.0",
     "react-scripts": "^5.0.1",
-    "sonner": "^1.0.3",
-    "swiper": "^8.4.6",
-    "web-vitals": "^2.1.4"
+    "sonner": "^1.2.4",
+    "swiper": "^11.0.5"
   },
   "scripts": {
     "start": "react-scripts start",

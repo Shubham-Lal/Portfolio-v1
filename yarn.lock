@@ -1188,10 +1188,10 @@
   resolved "https://registry.yarnpkg.com/@csstools/selector-specificity/-/selector-specificity-2.1.1.tgz#c9c61d9fe5ca5ac664e1153bb0aa0eba1c6d6308"
   integrity sha512-jwx+WCqszn53YHOfvFMJJRd/B2GqkCBt+1MJSG6o5/s8+ytHMvDZXsJgUEWLk12UnLd7HYKac4BYU5i/Ron1Cw==
 
-"@emailjs/browser@^3.10.0":
-  version "3.10.0"
-  resolved "https://registry.yarnpkg.com/@emailjs/browser/-/browser-3.10.0.tgz#74de36d95838e117cf76f7b71b68ffbe5668367d"
-  integrity sha512-pregUOBkSjjctQoAgn8DcSaeY4ypHjXAJEzWlJysM3RkQXw1ulavfHva3YYeAkxfJ7qbIhpyvRmhyQlgNG4GVg==
+"@emailjs/browser@^3.11.0":
+  version "3.11.0"
+  resolved "https://registry.yarnpkg.com/@emailjs/browser/-/browser-3.11.0.tgz#0e78de2f85096d1a9ad5b5977b060bb5d1784cb4"
+  integrity sha512-RkY3FKZ3fPdK++OeF46mRTFpmmQWCHUVHZH209P3NE4D5sg2Atg7S2wa3gw5062Gl4clt4Wn5SyC4WhlVZC5pA==
 
 "@emotion/is-prop-valid@^0.8.2":
   version "0.8.8"
@@ -2887,9 +2887,9 @@ caniuse-api@^3.0.0:
     lodash.uniq "^4.5.0"
 
 caniuse-lite@^1.0.0, caniuse-lite@^1.0.30001449, caniuse-lite@^1.0.30001464:
-  version "1.0.30001467"
-  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001467.tgz#1afc9c16ed61f50dd87139da87ca43a3e0051c77"
-  integrity sha512-cEdN/5e+RPikvl9AHm4uuLXxeCNq8rFsQ+lPHTfe/OtypP3WwnVVbjn+6uBV7PaFL6xUFzTh+sSCOz1rKhcO+Q==
+  version "1.0.30001565"
+  resolved "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001565.tgz"
+  integrity sha512-xrE//a3O7TP0vaJ8ikzkD2c2NgcVUvsEe2IvFTntV4Yd1Z9FVzh+gW+enX96L0psrbaFMcVcH2l90xNuGDWc8w==
 
 case-sensitive-paths-webpack-plugin@^2.4.0:
   version "2.4.0"
@@ -3590,13 +3590,6 @@ dom-serializer@^1.0.1:
     domelementtype "^2.0.1"
     domhandler "^4.2.0"
     entities "^2.0.0"
-
-dom7@^4.0.4:
-  version "4.0.6"
-  resolved "https://registry.yarnpkg.com/dom7/-/dom7-4.0.6.tgz#091a51621d7a19ce0fb86045cafb3c10035e97ed"
-  integrity sha512-emjdpPLhpNubapLFdjNL9tP06Sr+GZkrIHEXLWvOGsytACUrkbeIdjO5g77m00BrHTznnlcNqgmn7pCN192TBA==
-  dependencies:
-    ssr-window "^4.0.0"
 
 domelementtype@1:
   version "1.3.1"
@@ -4392,10 +4385,10 @@ fraction.js@^4.2.0:
   resolved "https://registry.yarnpkg.com/fraction.js/-/fraction.js-4.2.0.tgz#448e5109a313a3527f5a3ab2119ec4cf0e0e2950"
   integrity sha512-MhLuK+2gUcnZe8ZHlaaINnQLl0xRIGRfcGk2yl8xoQAfHrSsL3rYu6FCmBdkdbhc9EPlwyGHewaRsvwRMJtAlA==
 
-framer-motion@^10.16.4:
-  version "10.16.4"
-  resolved "https://registry.yarnpkg.com/framer-motion/-/framer-motion-10.16.4.tgz#30279ef5499b8d85db3a298ee25c83429933e9f8"
-  integrity sha512-p9V9nGomS3m6/CALXqv6nFGMuFOxbWsmaOrdmhyQimMIlLl3LC7h7l86wge/Js/8cRu5ktutS/zlzgR7eBOtFA==
+framer-motion@^10.16.7:
+  version "10.16.7"
+  resolved "https://registry.yarnpkg.com/framer-motion/-/framer-motion-10.16.7.tgz#79f7d47e896d39b63312e0edfa865dac3b6f0b04"
+  integrity sha512-iJrX0RXxbRI3qSvDjMIp0hj+Rq6eAx+GotpX8fnZhI88Texkhlj5QHifY4BdokCh4C0oYKPsyf0wL+kwM6/taw==
   dependencies:
     tslib "^2.4.0"
   optionalDependencies:
@@ -7838,10 +7831,10 @@ sockjs@^0.3.24:
     uuid "^8.3.2"
     websocket-driver "^0.7.4"
 
-sonner@^1.0.3:
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/sonner/-/sonner-1.0.3.tgz#3d5c08f1773c28e98e51dba527350d4ac1c912a2"
-  integrity sha512-hBoA2zKuYW3lUnpx4K0vAn8j77YuYiwvP9sLQfieNS2pd5FkT20sMyPTDJnl9S+5T27ZJbwQRPiujwvDBwhZQg==
+sonner@^1.2.4:
+  version "1.2.4"
+  resolved "https://registry.yarnpkg.com/sonner/-/sonner-1.2.4.tgz#c13b079a79fabef72135537aeb0164ad0671d044"
+  integrity sha512-WGLP2QQnomgewaCTsK7YWiLcy5n1Yj83vsL5cP4zHMmpSkmFsCYTpQKhlXJrPE5kzjwbqCkCFXcOpbKc4vaUaA==
 
 source-list-map@^2.0.0, source-list-map@^2.0.1:
   version "2.0.1"
@@ -7919,11 +7912,6 @@ sprintf-js@~1.0.2:
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/sprintf-js/-/sprintf-js-1.0.3.tgz#04e6926f662895354f3dd015203633b857297e2c"
   integrity sha512-D9cPgkvLlV3t3IzL0D0YLvGA9Ahk4PcvVwUbN0dSGr1aP0Nrt4AEnTUbuGvquEC0mA64Gqt1fzirlRs5ibXx8g==
-
-ssr-window@^4.0.0, ssr-window@^4.0.2:
-  version "4.0.2"
-  resolved "https://registry.yarnpkg.com/ssr-window/-/ssr-window-4.0.2.tgz#dc6b3ee37be86ac0e3ddc60030f7b3bc9b8553be"
-  integrity sha512-ISv/Ch+ig7SOtw7G2+qkwfVASzazUnvlDTwypdLoPoySv+6MqlOV10VwPSE6EWkGjhW50lUmghPmpYZXMu/+AQ==
 
 stable@^0.1.8:
   version "0.1.8"
@@ -8176,13 +8164,10 @@ svgo@^2.7.0:
     picocolors "^1.0.0"
     stable "^0.1.8"
 
-swiper@^8.4.6:
-  version "8.4.7"
-  resolved "https://registry.yarnpkg.com/swiper/-/swiper-8.4.7.tgz#0301d385c3efc8efe8b66a64187edcb30e3067ee"
-  integrity sha512-VwO/KU3i9IV2Sf+W2NqyzwWob4yX9Qdedq6vBtS0rFqJ6Fa5iLUJwxQkuD4I38w0WDJwmFl8ojkdcRFPHWD+2g==
-  dependencies:
-    dom7 "^4.0.4"
-    ssr-window "^4.0.2"
+swiper@^11.0.5:
+  version "11.0.5"
+  resolved "https://registry.yarnpkg.com/swiper/-/swiper-11.0.5.tgz#6ed1ad06e6906ba42fd4b93d4988f0626a49046e"
+  integrity sha512-rhCwupqSyRnWrtNzWzemnBLMoyYuoDgGgspAm/8iBD3jCvAWycPLH4Z3TB0O5520DHLzMx94yUMH/B9Efpa48w==
 
 symbol-tree@^3.2.4:
   version "3.2.4"
@@ -8604,11 +8589,6 @@ wbuf@^1.1.0, wbuf@^1.7.3:
   integrity sha512-O84QOnr0icsbFGLS0O3bI5FswxzRr8/gHwWkDlQFskhSPryQXvrTMxjxGP4+iWYoauLoBvfDpkrOauZ+0iZpDA==
   dependencies:
     minimalistic-assert "^1.0.0"
-
-web-vitals@^2.1.4:
-  version "2.1.4"
-  resolved "https://registry.yarnpkg.com/web-vitals/-/web-vitals-2.1.4.tgz#76563175a475a5e835264d373704f9dde718290c"
-  integrity sha512-sVWcwhU5mX6crfI5Vd2dC4qchyTqxV8URinzt25XqVh+bHEPGH4C3NPrNionCP7Obx59wrYEbNlw4Z8sjALzZg==
 
 webidl-conversions@^4.0.2:
   version "4.0.2"
