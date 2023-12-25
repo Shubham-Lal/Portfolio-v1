@@ -14,6 +14,15 @@ import Project13 from "../../assets/projects/Project13.jpg";
 
 export const projectsData = [
     {
+        id: 24,
+        image: "https://github.com/Shubham-Lal/media-in-readme/assets/111045472/9feb9454-7f2c-4203-a958-782d59518fb2",
+        title: "GitHub Clone",
+        framework: "Vite",
+        link: "https://github.shubhamlal.in",
+        button: "Site",
+        category: "web",
+    },
+    {
         id: 23,
         image: "https://user-images.githubusercontent.com/111045472/233840735-47c1f314-2b69-4fd1-ae0d-a04734df920a.png",
         title: "CrowdFunding",
@@ -63,8 +72,8 @@ export const projectsData = [
         image: "https://user-images.githubusercontent.com/111045472/223365828-7788178d-da82-4f12-9d1f-bb07f1629f89.png",
         title: "Twitter Clone",
         framework: "NextJS & Firebase",
-        link: "https://tclone.vercel.app",
-        button: "Site",
+        link: "https://github.com/Shubham-Lal/Twitter-Clone",
+        button: "Repo",
         category: "web",
     },
     {
@@ -81,8 +90,8 @@ export const projectsData = [
         image: "https://user-images.githubusercontent.com/111045472/225552712-b18db212-cfe5-4d44-bbcb-bba1fc3fcdb9.png",
         title: "Questions Answering AI",
         framework: "Vite & OPENAI",
-        link: "https://question-answer.pages.dev",
-        button: "Site",
+        link: "https://github.com/Shubham-Lal/Question-Answering-AI",
+        button: "Repo",
         category: "web",
     },
     {
@@ -90,8 +99,8 @@ export const projectsData = [
         image: "https://user-images.githubusercontent.com/111045472/225551881-eedd54a2-99fa-4e50-b0e4-04c867887c3c.png",
         title: "Pics Generator",
         framework: "Vite, OPENAI & Tailwindcss",
-        link: "https://image-generator.pages.dev",
-        button: "Site",
+        link: "https://github.com/Shubham-Lal/Image-Generator-AI",
+        button: "Repo",
         category: "web",
     },
     {

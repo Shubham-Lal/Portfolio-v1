@@ -49,9 +49,9 @@ export default function Contact() {
                             <i className="bx bx-mail-send contact__card-icon"></i>
 
                             <h3 className="contact__card-title">Email</h3>
-                            <span className="contact__card-data">new.shubhamlal@gmail.com</span>
+                            <span className="contact__card-data">im.shubhamlal@gmail.com</span>
 
-                            <a href="mailto:new.shubhamlal@gmail.com" className="contact__button">
+                            <a href="mailto:im.shubhamlal@gmail.com" className="contact__button">
                                 Write me
                                 <i className="bx bx-right-arrow-alt contact__button-icon"></i>
                             </a>
@@ -77,7 +77,7 @@ export default function Contact() {
                             <i className="bx bxl-github contact__card-icon"></i>
 
                             <h3 className="contact__card-title">Github</h3>
-                            <span className="contact__card-data">CERIFIED2003</span>
+                            <span className="contact__card-data">Shubham-Lal</span>
 
                             <a href="https://github.com/Shubham-Lal/DISCUSSIONS/issues/1" className="contact__button" target="_blank" rel="noopener noreferrer">
                                 Discuss
