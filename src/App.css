@@ -54,7 +54,7 @@
   user-select: none;
 }
 
-html {
+html, body {
   scroll-behavior: smooth;
 }
 

@@ -1,4 +1,5 @@
 import './App.css';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { Toaster } from 'sonner';
 import Header from './components/header/Header';
 import Home from './components/home/Home';
@@ -14,7 +15,7 @@ import ScrollUp from './components/scrollup/ScrollUp';
 
 function App() {
   return (
-    <>
+    <BrowserRouter>
       <Toaster
         duration={5000}
         position='top-center'
@@ -23,24 +24,31 @@ function App() {
       <div>
         <Header />
         <main className="main">
-          <Home />
-          <div className="space--vertical-first" />
-          <About />
-          <div className="space--vertical" />
-          <Skills />
-          <div className="space--vertical" />
-          <Services />
-          <Qualification />
-          <Work />
-          {/* <Testimonials /> */}
-          <div className="space--vertical" />
-          <Contact />
+          <Routes>
+            <Route path='/' element={
+              <>
+                <Home />
+                <div className="space--vertical-first" />
+                <About />
+                <div className="space--vertical" />
+                <Skills />
+                <div className="space--vertical" />
+                <Services />
+                <Qualification />
+                <Work />
+                {/* <Testimonials /> */}
+                <div className="space--vertical" />
+                <Contact />
+              </>
+            } />
+            <Route path='contact' element={<Contact />} />
+          </Routes>
         </main>
         <div className="space--vertical" />
         <Footer />
         <ScrollUp />
       </div>
-    </>
+    </BrowserRouter>
   );
 }
 

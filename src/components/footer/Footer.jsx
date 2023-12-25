@@ -12,27 +12,24 @@ export default function Footer() {
                     </a>
                 </div>
 
-                <ul className="footer__list">
+                {/* <ul className="footer__list">
                     <li>
                         <a href="#about" className="footer__link">About</a>
                     </li>
                     <li>
                         <a href="#portfolio" className="footer__link">Projects</a>
                     </li>
-                    <li>
-                        <a href="#testimonials" className="footer__link">Testimonials</a>
-                    </li>
-                </ul>
+                </ul> */}
 
                 <div className="footer__social">
                     <a href="https://github.com/Shubham-Lal" className="footer__social-link" target="_blank" rel="noreferrer">
                         <i className="bx bxl-github"></i>
                     </a>
-                    <a href="https://stackoverflow.com/users/21035210/shubham-lal" className="footer__social-link" target="_blank" rel="noreferrer">
-                        <i className='bx bxl-stack-overflow' style={{ fontWeight: "700", scale: "1.25" }}></i>
-                    </a>
                     <a href="https://www.linkedin.com/in/shubham-lal" className="footer__social-link" target="_blank" rel="noreferrer">
                         <i className="bx bxl-linkedin"></i>
+                    </a>
+                    <a href="https://stackoverflow.com/users/21035210/shubham-lal" className="footer__social-link" target="_blank" rel="noreferrer">
+                        <i className='bx bxl-stack-overflow' style={{ fontWeight: "700", scale: "1.25" }}></i>
                     </a>
                 </div>
 
