@@ -68,18 +68,11 @@
     flex-direction: column;
 }
 
-
-    /* background: url(../../assets/profile.jpg); */
 .home__img {
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    box-shadow: inset 0 0 0 9px rgb(255 255 255 / 30%);
-    border-radius: 50%;
-    order: 1;
-    justify-self: center;
     width: 300px;
     height: 300px;
+    box-shadow: inset 0 0 0 9px rgb(255 255 255 / 30%);
+    border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
     animation: profile__animate 8s ease-in-out infinite 1s;
 }
 
