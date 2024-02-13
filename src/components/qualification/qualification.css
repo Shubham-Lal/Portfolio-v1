@@ -1,4 +1,5 @@
 .qualification__container {
+    margin-top: 4rem;
     max-width: 810px;
     /* max-width: 768px; */
 }
@@ -108,6 +109,10 @@
 }
 
 @media screen and (max-width: 576px) {
+    .qualification__container {
+        margin-top: 2rem;
+    }
+
     .qualification__sections {
         grid-template-columns: initial;
     }

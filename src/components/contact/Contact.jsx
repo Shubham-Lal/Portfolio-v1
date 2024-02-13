@@ -36,8 +36,10 @@ export default function Contact() {
 
     return (
         <section className="contact section" id="contact">
-            <h2 className="section__title">Contact</h2>
-            <span className="section__subtitle">Get in Touch with me</span>
+            <div className="section__header">
+                <h2 className="section__title">Contact</h2>
+                <span className="section__subtitle">Get in Touch with me</span>
+            </div>
 
             <div className="contact__container container grid">
                 <div className="contact__content">

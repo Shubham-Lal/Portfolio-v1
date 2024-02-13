@@ -1,4 +1,5 @@
 .contact__container {
+    margin-top: 4rem;
     grid-template-columns: repeat(2, max-content);
     justify-content: center;
     column-gap: 6rem;
@@ -60,7 +61,7 @@
     transition: 0.3s;
 }
 
-.contact__button:hover .contact__button-icon{
+.contact__button:hover .contact__button-icon {
     transform: translate(0.25rem);
 }
 
@@ -113,7 +114,7 @@
     justify-content: center;
     width: 150px;
     height: 55px;
-  }
+}
 
 .button .button--flex svg {
     height: 10px !important;
@@ -142,6 +143,10 @@
 }
 
 @media screen and (max-width: 576px) {
+    .contact__container {
+        margin-top: 2rem;
+    }
+
     .contact__info {
         grid-template-columns: 1fr;
     }

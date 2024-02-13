@@ -27,8 +27,8 @@ export const projectsData = [
         image: "https://user-images.githubusercontent.com/111045472/233840735-47c1f314-2b69-4fd1-ae0d-a04734df920a.png",
         title: "CrowdFunding",
         framework: "Solidity & TailwindCSS",
-        link: "https://crowdfunding-eth.pages.dev",
-        button: "Site",
+        link: "https://github.com/Shubham-Lal/Crowdfunding-Blockchain",
+        button: "Repo",
         category: "web",
     },
     {
@@ -36,8 +36,8 @@ export const projectsData = [
         image: "https://user-images.githubusercontent.com/111045472/233840628-c94b516a-4e4c-48ba-bab0-09a4b378128c.png",
         title: "Krypt",
         framework: "Solidity & TailwindCSS",
-        link: "https://krypt.pages.dev",
-        button: "Site",
+        link: "https://github.com/Shubham-Lal/Krypt-Blockchain-Transaction",
+        button: "Repo",
         category: "web",
     },
     {
@@ -54,8 +54,8 @@ export const projectsData = [
         image: "https://user-images.githubusercontent.com/111045472/233839792-fd3298c1-a607-4770-b1b0-fd795ba93cb8.png",
         title: "CertyStore",
         framework: "MERN Stack & TailwindCSS",
-        link: "https://certystore-v2.pages.dev",
-        button: "Site",
+        link: "https://github.com/Shubham-Lal/ECommerce-Site-v2",
+        button: "Repo",
         category: "web",
     },
     {

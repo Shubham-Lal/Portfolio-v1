@@ -8,8 +8,10 @@ export default function Services() {
     };
     return (
         <section className="services section" id="services">
-            <h2 className="section__title">Services</h2>
-            <span className="section__subtitle">What I'm Capable Of</span>
+            <div className="section__header">
+                <h2 className="section__title">Services</h2>
+                <span className="section__subtitle">What I'm Capable Of</span>
+            </div>
 
             <div className="services__container container grid">
                 {/* CONTENT 1 */}

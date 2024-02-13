@@ -1,4 +1,5 @@
 .about__container {
+    margin-top: 4rem;
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
     column-gap: 4rem;
@@ -11,7 +12,8 @@
 }
 
 .about__info {
-    grid-template-columns: repeat(3, 140px);
+    /* grid-template-columns: repeat(3, 140px); */
+    grid-template-columns: repeat(2, 1fr);
     gap: 0.5rem;
     margin-bottom: var(--mb-2);
 }
@@ -46,6 +48,12 @@
     padding: 0 1rem 0 0;
     /* text-align: justify; */
     margin-bottom: var(--mb-2);
+}
+
+.about__description a {
+    color: black;
+    font-weight: bold;
+    text-decoration: underline;
 }
 
 .about__hobbies {
@@ -100,8 +108,12 @@
 }
 
 @media screen and (max-width: 576px) {
+    .about__container {
+        margin-top: 2rem;
+    }
+
     .about__info {
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(2, 1fr);
     }
 
     .about__description {

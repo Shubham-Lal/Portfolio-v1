@@ -35,7 +35,7 @@ export default function Works() {
     };
 
     return (
-        <div>
+        <div className="work__container">
             <div className="work__filters">
                 {
                     projectsNav.map((item, index) => {

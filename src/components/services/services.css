@@ -1,4 +1,5 @@
 .services__container {
+    margin-top: 4rem;
     grid-template-columns: repeat(3, 270px);
     justify-content: center;
     column-gap: 1.8rem;
@@ -139,6 +140,10 @@
 }
 
 @media screen and (max-width: 576px) {
+    .services__container {
+        margin-top: 2rem;
+    }
+
     .services__modal-content {
         padding: 4.5rem 1.5rem 2.5rem;
     }

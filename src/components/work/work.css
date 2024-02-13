@@ -1,3 +1,7 @@
+.work__container {
+    margin-top: 4rem;
+}
+
 .work__filters {
     display: flex;
     justify-content: center;
@@ -99,8 +103,7 @@
     background: transparent;
 }
 
-.swiper
-.swiper-button-next,
+.swiper .swiper-button-next,
 .swiper .swiper-button-prev {
     color: var(--title-color-dark);
 }
@@ -147,6 +150,7 @@
 
 @media screen and (max-width: 576px) {
     .work__container {
+        margin-top: 2rem;
         grid-template-columns: 1fr;
     }
 

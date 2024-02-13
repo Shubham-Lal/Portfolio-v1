@@ -1,5 +1,6 @@
 .skills__container {
-    grid-template-columns: repeat(2, 350px);
+    margin-top: 4rem;
+    grid-template-columns: repeat(2, 375px);
     column-gap: 3rem;
     justify-content: center;
 }
@@ -66,6 +67,12 @@
 
     .skills__content {
         padding: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .skills__container {
+        margin-top: 2rem;
     }
 }
 

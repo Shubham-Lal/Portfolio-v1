@@ -49,7 +49,7 @@
     padding: 0.4rem;
     border-radius: 0.5rem;
     display: inline-flex;
-    transition: 0.3s;
+    transition: all 300ms ease-in-out;
 }
 
 .footer__social-link:hover {
