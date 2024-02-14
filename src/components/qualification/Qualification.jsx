@@ -21,7 +21,7 @@ export default function Qualification() {
                         className={toggleState === 1 ? "qualification__button qualification__active button--flex" : "qualification__button button--flex"}
                     >
                         <i className="uil uil-briefcase-alt qualification__icon"></i>
-                        <span className={toggleState === 1 ? "underline__active" : ""}>Experience</span>
+                        <span>Experience</span>
                     </div>
 
                     <div
@@ -29,7 +29,7 @@ export default function Qualification() {
                         className={toggleState === 2 ? "qualification__button qualification__active button--flex" : "qualification__button button--flex"}
                     >
                         <i className="uil uil-graduation-cap qualification__icon"></i>
-                        <span className={toggleState === 2 ? "underline__active" : ""}>Education</span>
+                        <span>Education</span>
                     </div>
                 </div>
 
@@ -113,9 +113,9 @@ export default function Qualification() {
 
                             <div>
                                 <h3 className="qualification__title">Web Development</h3>
-                                <span className="qualification__subtitle">Udemy</span>
+                                <span className="qualification__subtitle">Udemy & Youtube</span>
                                 <div className="qualification__calendar">
-                                    <i className="uil uil-calendar-alt"></i> 2022 - Present
+                                    <i className="uil uil-calendar-alt"></i> 2022 - 2023
                                 </div>
                             </div>
                         </div>

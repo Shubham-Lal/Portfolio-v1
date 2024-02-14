@@ -1,6 +1,7 @@
 /* GOOGLE FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap'); */
 
 /* VARIABLES */
 :root {
@@ -40,8 +41,11 @@
   --mb-2-5: 2.5rem;
   --mb-3: 3rem;
 
-  --z-tooltip: 10;
-  --z-fixed: 100;
+  --z-sticky: 8;
+  --z-text: 9;
+  --z-sticky: 10;
+  --z-tooltip: 11;
+  --z-fixed: 12;
   --z-modal: 1000;
 }
 
@@ -158,6 +162,7 @@ img {
   padding: 1.25rem 0.75rem;
   border-radius: 1rem;
   font-weight: var(--font-medium);
+  text-decoration: underline;
 }
 
 .button:hover {
@@ -232,7 +237,7 @@ img {
   .section__header {
     position: sticky;
     top: 0;
-    z-index: 99;
+    z-index: var(--z-sticky);
     background-color: hsl(var(--hue), var(--sat), 98%);
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
   }

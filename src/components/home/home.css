@@ -1,4 +1,5 @@
 .home__container {
+    padding-top: 8rem;
     row-gap: 7rem;
 }
 
@@ -27,9 +28,11 @@
 }
 
 .home__title {
-    font-size: 3.2rem;
+    font-size: 5rem;
     margin-bottom: var(--mb-0-25);
-    font-family: 'Comfortaa', cursive;
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 600;
+    font-style: italic;
 }
 
 .home__hand {
@@ -60,7 +63,12 @@
 .home__description {
     max-width: 400px;
     margin-bottom: var(--mb-3);
-    text-align: justify;
+    /* text-align: justify; */
+}
+
+.home__buttons {
+    display: flex;
+    gap: 10px;
 }
 
 .home__button-flex {
@@ -134,6 +142,7 @@
         width: 30px;
         height: 30px;
     }
+
     /* .home__hand {
         width: 26px;
         height: 26px;
@@ -189,9 +198,19 @@
     }
 }
 
+@media screen and (max-width: 576px) {
+    .home__container {
+        padding-top: 2.5rem;
+    }
+
+    .home__title {
+        font-size: 3.5rem;
+    }
+}
+
 @media screen and (max-width: 440px) {
     .home__title {
-        font-size: 2.5rem;
+        font-size: 3rem;
     }
 
     .home__description {
@@ -213,5 +232,11 @@
     .home__hand {
         width: 22px;
         height: 22px;
+    }
+
+    .home__buttons {
+        width: fit-content;
+        flex-direction: column;
+        gap: 0;
     }
 }

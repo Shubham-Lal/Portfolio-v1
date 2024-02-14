@@ -30,6 +30,7 @@ export default function Header() {
         else {
             navigate("/");
         }
+        setToggle(false);
     }
 
     return (

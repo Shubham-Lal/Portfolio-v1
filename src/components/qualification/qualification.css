@@ -16,7 +16,7 @@
     color: var(--title-color);
     margin: 0 var(--mb-1);
     cursor: pointer;
-    transition: 0.3s;
+    transition: all 300ms ease-in-out;
 }
 
 .qualification__button:hover {
@@ -46,6 +46,7 @@
     display: grid;
     grid-template-columns: 0.5fr;
     justify-content: center;
+    overflow-y: hidden;
 }
 
 .qualification__content {
