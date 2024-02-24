@@ -1,7 +1,6 @@
 import { useEffect, useState } from "react";
 import "./header.css";
 import { useLocation, useNavigate } from "react-router-dom";
-// import ResumePdf from "../../assets/Shubham-Resume.pdf";
 // import FilesSVG from "../../assets/files.svg";
 
 export default function Header() {
@@ -37,7 +36,7 @@ export default function Header() {
         <header className="header">
             <nav className="nav container">
                 <a href="/" className="nav__logo">Shubham</a>
-                {/* <a href={ResumePdf} className="button button--flex" target="_blank" rel="noopener noreferrer" >
+                {/* <a href='/public/Resume-Shubham_Lal.pdf' className="button button--flex" target="_blank" rel="noopener noreferrer" >
                     My Resume
                     <img src={FilesSVG} className="button__icon" alt="" />
                 </a> */}

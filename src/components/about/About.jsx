@@ -29,7 +29,7 @@ export default function About() {
                         </p>
                     </div>
 
-                    <a href="/Resume-Shubham-Lal.pdf" className="button button--flex" target="_blank" rel="noopener noreferrer" >
+                    <a href="/Resume-Shubham_Lal.pdf" className="button button--flex" target="_blank" rel="noopener noreferrer" >
                         My Resume
                         <img src={FilesSVG} className="button__icon" alt="" />
                     </a>

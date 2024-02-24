@@ -18,7 +18,7 @@ export default function Data() {
           Say Hello
           <img src={Send} height={24} width={24} className="button__icon" alt="" />
         </a>
-        <a href="/Resume-Shubham-Lal.pdf" className="button-white button--flex" target="_blank" rel="noopener noreferrer">
+        <a href="/Resume-Shubham_Lal.pdf" className="button-white button--flex" target="_blank" rel="noopener noreferrer">
           My Resume
         </a>
       </div>
