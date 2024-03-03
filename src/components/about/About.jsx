@@ -23,7 +23,7 @@ export default function About() {
                     <div className="about__description">
                         <p className="about__hobbies">Full-Stack Developer | Software Developer | Game Developer | App Developer<br /><br /></p>
                         <p>
-                            With over 1400+ hours (ref. <a href="https://wakatime.com/@shubhamlal">wakatime.com/@shubhamlal</a>) of hands-on development experience. Actively engaged in building back-end solutions for various web applications.<br /><br />
+                            With over 1500+ hours (ref. <a href="https://wakatime.com/@shubhamlal">wakatime.com/@shubhamlal</a>) of hands-on development experience. Actively engaged in building back-end solutions for various web applications.<br /><br />
                             My greatest strength in development lies in breaking down product requirements into manageable stages, enabling me to address each component. This approach ensures that the applications I build not only excel in functionality but also possess the capability for troubleshooting and optimization in the near future.<br /><br />
                             My proficiency extends beyond MERN stack, as I am currently learning and applying skills to build applications with Angular, PHP, and various other tech stacks.
                         </p>
