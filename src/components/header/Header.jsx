@@ -36,7 +36,7 @@ export default function Header() {
         <header className="header">
             <nav className="nav container">
                 <a href="/" className="nav__logo">Shubham</a>
-                {/* <a href='/public/Resume-Shubham_Lal.pdf' className="button button--flex" target="_blank" rel="noopener noreferrer" >
+                {/* <a href='https://links.shubhamlal.in/Resume-Shubham_Lal.pdf' className="button button--flex" target="_blank" rel="noopener noreferrer" >
                     My Resume
                     <img src={FilesSVG} className="button__icon" alt="" />
                 </a> */}
