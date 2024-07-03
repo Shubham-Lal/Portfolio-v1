@@ -1,0 +1,128 @@
+.about__container {
+    margin-top: 4rem;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    column-gap: 4rem;
+}
+
+.about__img {
+    width: 350px;
+    border-radius: 1.5rem;
+    justify-self: center;
+}
+
+.about__info {
+    /* grid-template-columns: repeat(3, 140px); */
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.5rem;
+    margin-bottom: var(--mb-2);
+}
+
+.about__box {
+    background-color: var(--container-color);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 0.75rem;
+    text-align: center;
+    padding: 1rem 1.25rem;
+}
+
+.about__icon {
+    font-size: 1.5rem;
+    color: var(--title-color);
+    margin-bottom: var(--mb-0-5);
+}
+
+.about__title {
+    font-size: var(--small-font-size);
+    font-weight: var(--font-medium);
+}
+
+/* .about__subtitle {
+    font-size: var(--tiny-font-size);
+} */
+
+.about__description {
+    display: flex;
+    flex-direction: column;
+    /* padding: 0 4rem 0 0; */
+    padding: 0 1rem 0 0;
+    /* text-align: justify; */
+    margin-bottom: var(--mb-2);
+}
+
+.about__description a {
+    color: black;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.about__hobbies {
+    text-align: center;
+}
+
+.about__hobby {
+    display: none;
+    text-align: center;
+}
+
+.button__icon {
+    height: 20px;
+    width: 20px;
+}
+
+@media screen and (max-width: 992px) {
+    .about__container {
+        grid-template-columns: 1fr;
+        row-gap: 2.5rem;
+    }
+
+    .about__img {
+        width: 220px;
+    }
+
+    .about__box {
+        padding: 0.75rem 0.5rem;
+    }
+
+    .about__data,
+    .about__description {
+        text-align: center;
+    }
+
+    .about__info {
+        justify-content: center;
+    }
+
+    .about__description {
+        padding: 0 5rem;
+        margin-bottom: 2rem;
+    }
+
+    .about__hobbies {
+        display: none;
+    }
+
+    .about__hobby {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .about__container {
+        margin-top: 2rem;
+    }
+
+    .about__info {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .about__description {
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .about__info {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}

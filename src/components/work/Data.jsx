@@ -1,0 +1,250 @@
+import Project1 from "../../assets/projects/Project1.png";
+import Project2 from "../../assets/projects/Project2.png";
+import Project3 from "../../assets/projects/Project3.png";
+import Project4 from "../../assets/projects/Project4.png";
+import Project5 from "../../assets/projects/Project5.webp";
+import Project6 from "../../assets/projects/Project6.webp";
+import Project7 from "../../assets/projects/Project7.webp";
+import Project8 from "../../assets/projects/Project8.webp";
+import Project9 from "../../assets/projects/Project9.png";
+import Project10 from "../../assets/projects/Project10.jpg";
+import Project11 from "../../assets/projects/Project11.png";
+import Project12 from "../../assets/projects/Project12.png";
+import Project13 from "../../assets/projects/Project13.jpg";
+
+export const projectsData = [
+    {
+        id: 24,
+        image: "https://github.com/Shubham-Lal/media-in-readme/assets/111045472/9feb9454-7f2c-4203-a958-782d59518fb2",
+        title: "GitHub Clone",
+        framework: "Vite",
+        link: "https://github.shubhamlal.in",
+        button: "Site",
+        category: "web",
+    },
+    {
+        id: 23,
+        image: "https://user-images.githubusercontent.com/111045472/233840735-47c1f314-2b69-4fd1-ae0d-a04734df920a.png",
+        title: "CrowdFunding",
+        framework: "Solidity & TailwindCSS",
+        link: "https://github.com/Shubham-Lal/Crowdfunding-Blockchain",
+        button: "Repo",
+        category: "web",
+    },
+    {
+        id: 22,
+        image: "https://user-images.githubusercontent.com/111045472/233840628-c94b516a-4e4c-48ba-bab0-09a4b378128c.png",
+        title: "Krypt",
+        framework: "Solidity & TailwindCSS",
+        link: "https://github.com/Shubham-Lal/Krypt-Blockchain-Transaction",
+        button: "Repo",
+        category: "web",
+    },
+    {
+        id: 21,
+        image: "https://user-images.githubusercontent.com/111045472/233840512-0a4ae0c3-c2ad-4024-850f-00f62b216ade.png",
+        title: "ToDo App",
+        framework: "MERN Stack & Redux",
+        link: "https://my-todo.pages.dev",
+        button: "Site",
+        category: "web",
+    },
+    {
+        id: 20,
+        image: "https://user-images.githubusercontent.com/111045472/233839792-fd3298c1-a607-4770-b1b0-fd795ba93cb8.png",
+        title: "CertyStore",
+        framework: "MERN Stack & TailwindCSS",
+        link: "https://github.com/Shubham-Lal/ECommerce-Site-v2",
+        button: "Repo",
+        category: "web",
+    },
+    {
+        id: 19,
+        image: "https://user-images.githubusercontent.com/111045472/224488107-af646310-ac05-4b61-8add-8363514ce72d.png",
+        title: "Login with IP System",
+        framework: "MERN Stack",
+        link: "https://smart-attendance-system.pages.dev",
+        button: "Site",
+        category: "web",
+    },
+    {
+        id: 18,
+        image: "https://user-images.githubusercontent.com/111045472/223365828-7788178d-da82-4f12-9d1f-bb07f1629f89.png",
+        title: "Twitter Clone",
+        framework: "NextJS & Firebase",
+        link: "https://github.com/Shubham-Lal/Twitter-Clone",
+        button: "Repo",
+        category: "web",
+    },
+    {
+        id: 17,
+        image: "https://user-images.githubusercontent.com/111045472/223370041-05d62d98-e0da-4806-a2de-ac94fceaa789.png",
+        title: "Reddit Clone",
+        framework: "NextJS, CHAKRA & Firebase",
+        link: "https://r-clone.vercel.app",
+        button: "Site",
+        category: "web",
+    },
+    {
+        id: 16,
+        image: "https://user-images.githubusercontent.com/111045472/225552712-b18db212-cfe5-4d44-bbcb-bba1fc3fcdb9.png",
+        title: "Questions Answering AI",
+        framework: "Vite & OPENAI",
+        link: "https://github.com/Shubham-Lal/Question-Answering-AI",
+        button: "Repo",
+        category: "web",
+    },
+    {
+        id: 15,
+        image: "https://user-images.githubusercontent.com/111045472/225551881-eedd54a2-99fa-4e50-b0e4-04c867887c3c.png",
+        title: "Pics Generator",
+        framework: "Vite, OPENAI & Tailwindcss",
+        link: "https://github.com/Shubham-Lal/Image-Generator-AI",
+        button: "Repo",
+        category: "web",
+    },
+    {
+        id: 14,
+        image: "https://user-images.githubusercontent.com/111045472/225552272-00b25576-9d3b-4fd0-8d11-a8208c159c3c.png",
+        title: "UbuntuOS",
+        framework: "NextJS & Tailwindcss",
+        link: "https://ubuntuos.pages.dev",
+        button: "Site",
+        category: "web",
+    },
+    {
+        id: 1,
+        image: Project2,
+        title: "Clang Social",
+        framework: "ReactJS & MongoDB",
+        link: "https://clangsocial.netlify.app",
+        button: "Site",
+        category: "web",
+    },
+    {
+        id: 2,
+        image: Project1,
+        title: "Clang Social",
+        framework: "NextJS & Sanity",
+        link: "https://clang-social.netlify.app",
+        button: "Site",
+        category: "web",
+    },
+    {
+        id: 3,
+        image: Project11,
+        title: "Keeper",
+        framework: "ReactJS & MongoDB",
+        link: "https://keeper-demo.netlify.app",
+        button: "Site",
+        category: "web",
+    },
+    {
+        id: 4,
+        image: Project12,
+        title: "Infix Operations",
+        framework: "HTML, CSS & JS",
+        link: "https://shubham-lal.github.io/infix_operation",
+        button: "Site",
+        category: "web",
+    },
+    {
+        id: 5,
+        image: Project3,
+        title: "HammerOBots",
+        framework: "Unreal Engine",
+        link: "https://play.google.com/store/apps/details?id=com.Casuals4Fun.HammerOBots",
+        button: "Play Store",
+        category: "game",
+    },
+    {
+        id: 6,
+        image: Project4,
+        title: "Clang Social App",
+        framework: "Java",
+        link: "https://play.google.com/store/apps/details?id=com.casuals4fun.clang_social",
+        button: "Play Store",
+        category: "app",
+    },
+    {
+        id: 7,
+        image: Project5,
+        title: "Space Shooter",
+        framework: "PyGame",
+        link: "https://github.com/Shubham-Lal/py-game",
+        button: "Github Repo",
+        category: "game",
+    },
+    {
+        id: 8,
+        image: Project13,
+        title: "Multiple Screen Demo",
+        framework: "Java",
+        link: "https://github.com/Shubham-Lal/multiplescreen-demo",
+        button: "Github Repo",
+        category: "app",
+    },
+    {
+        id: 9,
+        image: Project7,
+        title: "Mask Detection System",
+        framework: "Python",
+        link: "https://github.com/Shubham-Lal/Face-Mask-Detection",
+        button: "Github Repo",
+        category: "software",
+    },
+    {
+        id: 10,
+        image: Project8,
+        title: "Items Detector AI",
+        framework: "Python",
+        link: "https://github.com/Shubham-Lal/Items-Detector-AI",
+        button: "Github Repo",
+        category: "software",
+    },
+    {
+        id: 11,
+        image: Project9,
+        title: "J.A.R.V.I.S",
+        framework: "Python",
+        link: "https://github.com/Shubham-Lal/VoiceDetection-AI",
+        button: "Github Repo",
+        category: "software",
+    },
+    {
+        id: 12,
+        image: Project10,
+        title: "Tic Tac Toe",
+        framework: "Java",
+        link: "https://github.com/Shubham-Lal/TicTacToe_Apk-usingJAVA",
+        button: "Github Repo",
+        category: "game",
+    },
+    {
+        id: 13,
+        image: Project6,
+        title: "Face Recognition System",
+        framework: "Python",
+        link: "https://github.com/Shubham-Lal/FacialRecognitionSystem-withAttendance",
+        button: "Github Repo",
+        category: "software",
+    },
+];
+
+export const projectsNav = [
+    {
+        name: "all",
+    },
+    {
+        name: "web",
+    },
+    {
+        name: "game",
+    },
+    {
+        name: "software",
+    },
+    {
+        name: "app",
+    }
+];
