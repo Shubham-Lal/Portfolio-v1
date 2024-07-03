@@ -1,7 +1,6 @@
 import { useEffect, useState } from "react";
 import "./header.css";
 import { useLocation, useNavigate } from "react-router-dom";
-// import FilesSVG from "../../assets/files.svg";
 
 export default function Header() {
     const navigate = useNavigate();
@@ -36,10 +35,6 @@ export default function Header() {
         <header className="header">
             <nav className="nav container">
                 <a href="/" className="nav__logo">Shubham</a>
-                {/* <a href='https://links.shubhamlal.in/Resume-Shubham_Lal.pdf' className="button button--flex" target="_blank" rel="noopener noreferrer" >
-                    My Resume
-                    <img src={FilesSVG} className="button__icon" alt="" />
-                </a> */}
 
                 <div className={toggle ? "nav__menu show-menu" : "nav__menu"}>
                     <ul className="nav__list grid">

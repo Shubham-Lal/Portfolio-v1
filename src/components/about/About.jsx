@@ -1,6 +1,4 @@
 import "./about.css";
-import AboutImg from "../../assets/about.jpg";
-import FilesSVG from "../../assets/files.svg";
 import Info from "./Info";
 
 export default function About() {
@@ -13,7 +11,7 @@ export default function About() {
             <div className="section__shadow" />
 
             <div className="about__container container grid">
-                <img src={AboutImg} alt="Shubham-Second" className="about__img" loading="lazy" />
+                <img src='/others/about.jpg' alt="Shubham-Second" className="about__img" loading="lazy" />
                 <p className="about__hobby">
                     Full-Stack Developer | Game Dev | Software Programmer | App Developer
                 </p>
@@ -31,7 +29,7 @@ export default function About() {
 
                     <a href="https://links.shubhamlal.in/Resume-Shubham_Lal.pdf" className="button button--flex" target="_blank" rel="noopener noreferrer" >
                         My Resume
-                        <img src={FilesSVG} className="button__icon" alt="" />
+                        <img src='/others/files.svg' className="button__icon" alt="" />
                     </a>
                 </div>
             </div>

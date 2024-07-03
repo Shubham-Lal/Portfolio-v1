@@ -1,5 +1,4 @@
 import "./contact.css";
-import Send from "../../assets/send.svg";
 import emailjs from '@emailjs/browser';
 import { toast } from "sonner";
 import { useRef, useState } from "react";
@@ -131,7 +130,7 @@ export default function Contact() {
                             {loading === 0 ?
                                 <>
                                     <span>Send</span>
-                                    <img src={Send} height={24} width={24} className="button__icon" alt="" />
+                                    <img src='/others/send.svg' height={24} width={24} className="button__icon" alt="" />
                                 </>
                                 : loading === 1 ?
                                     <Oval stroke="#fff" height={30} width={30} />
