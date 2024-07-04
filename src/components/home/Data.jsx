@@ -6,7 +6,7 @@ export default function Data() {
       </h1>
       <h3 className="home__subtitle">Tech Enthusiast</h3>
       <p className="home__description">
-        Working on an awesome project.
+        Currently building products at <a href="https://github.com/Casuals4Fun" style={{ fontWeight: 'bold', color: 'black', textDecoration: 'underline' }} target="_blank" rel="noopener noreferrer">Casuals4Fun</a>
       </p>
 
       <div className="home__buttons">

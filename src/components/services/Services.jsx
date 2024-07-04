@@ -42,8 +42,7 @@ export default function Services() {
 
                             <h3 className="services__modal-title">Web Designing</h3>
                             <p className="services__modal-description">
-                                Services with more than 1 year of experience. Generally working as a Freelancer providing clients and
-                                companies with quality work.
+                                Services with more than 1 year of experience. Currently building web applications at <a href="https://github.com/Casuals4Fun" style={{ fontWeight: 'bold', color: 'black', textDecoration: 'underline' }} target="_blank" rel="noopener noreferrer">Casuals4Fun</a>
                             </p>
 
                             <ul className="services__modal-services grid">
@@ -86,7 +85,7 @@ export default function Services() {
 
                             <h3 className="services__modal-title">Game Development</h3>
                             <p className="services__modal-description">
-                                More than 1 year of experience. Working as a employee of a start-up WeKnewHow.
+                                More than 1 year of experience. Currently making games at <a href="https://github.com/Casuals4Fun" style={{ fontWeight: 'bold', color: 'black', textDecoration: 'underline' }} target="_blank" rel="noopener noreferrer">Casuals4Fun</a>
                             </p>
 
                             <ul className="services__modal-services grid">
@@ -121,7 +120,7 @@ export default function Services() {
 
                             <h3 className="services__modal-title">Software Programming</h3>
                             <p className="services__modal-description">
-                                More than 2 year of knowledge. Working on my own to get hired in tech leading MNCs.
+                                More than 2 year of knowledge. Currently building softwares at <a href="https://github.com/Casuals4Fun" style={{ fontWeight: 'bold', color: 'black', textDecoration: 'underline' }} target="_blank" rel="noopener noreferrer">Casuals4Fun</a>
                             </p>
 
                             <ul className="services__modal-services grid">

@@ -41,7 +41,7 @@ export default function Qualification() {
                                 <h3 className="qualification__title">Frontend Developer</h3>
                                 <span className="qualification__subtitle">AI Chef Master</span>
                                 <div className="qualification__calendar">
-                                    <i className="uil uil-calendar-alt"></i> Feb 2024 - Present
+                                    <i className="uil uil-calendar-alt"></i> Mar 2024 - May 2024
                                 </div>
                             </div>
 
@@ -63,7 +63,7 @@ export default function Qualification() {
                                 <h3 className="qualification__title">Lead Web Developer</h3>
                                 <span className="qualification__subtitle">GDSC Bengal Institute of Technology</span>
                                 <div className="qualification__calendar">
-                                    <i className="uil uil-calendar-alt"></i> Sep 2023 - Present
+                                    <i className="uil uil-calendar-alt"></i> Sep 2023 - Jun 2024
                                 </div>
                             </div>
                         </div>
