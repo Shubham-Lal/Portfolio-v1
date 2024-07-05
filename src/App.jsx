@@ -28,13 +28,14 @@ function App() {
             <Route path='/' element={
               <>
                 <Home />
-                <div className="space--vertical-first" />
                 <About />
                 <div className="space--vertical" />
                 <Skills />
                 <div className="space--vertical" />
                 <Services />
+                <div className="space--vertical" />
                 <Qualification />
+                <div className="space--vertical" />
                 <Work />
                 {/* <Testimonials /> */}
                 <div className="space--vertical" />

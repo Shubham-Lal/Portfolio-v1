@@ -3,8 +3,6 @@ import { useState } from "react";
 import { projectsData } from "./Data";
 import { projectsNav } from "./Data";
 import WorkItems from "./WorkItems";
-
-// Swiper
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";

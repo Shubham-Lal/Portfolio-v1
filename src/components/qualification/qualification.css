@@ -1,7 +1,6 @@
 .qualification__container {
     margin-top: 4rem;
     max-width: 810px;
-    /* max-width: 768px; */
 }
 
 .qualification__tabs {
@@ -71,7 +70,6 @@
 .qualification__subtitle {
     display: inline-block;
     font-size: var(--small-font-size);
-    /* margin-bottom: 0.5rem; */
     margin-bottom: var(--mb-1);
 }
 

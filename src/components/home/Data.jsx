@@ -6,7 +6,7 @@ export default function Data() {
       </h1>
       <h3 className="home__subtitle">Tech Enthusiast</h3>
       <p className="home__description">
-        Currently building products at <a href="https://github.com/Casuals4Fun" style={{ fontWeight: 'bold', color: 'black', textDecoration: 'underline' }} target="_blank" rel="noopener noreferrer">Casuals4Fun</a>
+        Currently building products at <a href="https://github.com/Casuals4Fun" style={{ fontWeight: 500, color: 'black', textDecoration: 'underline' }} target="_blank" rel="noopener noreferrer">Casuals4Fun</a>
       </p>
 
       <div className="home__buttons">
@@ -14,9 +14,9 @@ export default function Data() {
           Say Hello
           <img src='/others/send.svg' height={24} width={24} className="button__icon" alt="" />
         </a>
-        <a href="https://links.shubhamlal.in/Resume-Shubham_Lal.pdf" className="button-white button--flex" target="_blank" rel="noopener noreferrer">
+        {/* <a href="https://links.shubhamlal.in/Resume-Shubham_Lal.pdf" className="button-white button--flex" target="_blank" rel="noopener noreferrer">
           My Resume
-        </a>
+        </a> */}
       </div>
     </div>
   )

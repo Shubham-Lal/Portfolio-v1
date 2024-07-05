@@ -29,7 +29,6 @@ export default function Contact() {
                 setLoading(2);
             }, (error) => {
                 return toast.error("Please try again after sometime...");
-                // console.log(error.text);
             });
     };
 

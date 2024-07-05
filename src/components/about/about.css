@@ -12,7 +12,6 @@
 }
 
 .about__info {
-    /* grid-template-columns: repeat(3, 140px); */
     grid-template-columns: repeat(2, 1fr);
     gap: 0.5rem;
     margin-bottom: var(--mb-2);
@@ -37,16 +36,10 @@
     font-weight: var(--font-medium);
 }
 
-/* .about__subtitle {
-    font-size: var(--tiny-font-size);
-} */
-
 .about__description {
     display: flex;
     flex-direction: column;
-    /* padding: 0 4rem 0 0; */
     padding: 0 1rem 0 0;
-    /* text-align: justify; */
     margin-bottom: var(--mb-2);
 }
 
@@ -54,15 +47,6 @@
     color: black;
     font-weight: bold;
     text-decoration: underline;
-}
-
-.about__hobbies {
-    text-align: center;
-}
-
-.about__hobby {
-    display: none;
-    text-align: center;
 }
 
 .button__icon {
@@ -96,14 +80,6 @@
     .about__description {
         padding: 0 5rem;
         margin-bottom: 2rem;
-    }
-
-    .about__hobbies {
-        display: none;
-    }
-
-    .about__hobby {
-        display: block;
     }
 }
 

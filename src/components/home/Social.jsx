@@ -20,8 +20,12 @@ export default function Social() {
             </a>
 
             <a href="https://stackoverflow.com/users/21035210/shubham-lal" className="home__social-icon" target="_blank" rel="noreferrer">
-                <i className='bx bxl-stack-overflow' style={{fontWeight: "700", scale: "1.25"}}></i>
+                <i className='bx bxl-stack-overflow' style={{ fontWeight: "700", scale: "1.25" }}></i>
             </a>
+
+            {/* <a href="https://links.shubhamlal.in/Resume-Shubham_Lal.pdf" className="home__social-icon" target="_blank" rel="noreferrer">
+                <i className='uil uil-file-info-alt' style={{ fontWeight: "700", scale: "1.25" }}></i>
+            </a> */}
         </div>
     )
 }

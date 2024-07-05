@@ -12,7 +12,7 @@ export default function Home() {
 
                     <div>
                         <img 
-                            src="/profile.jpg" 
+                            src="/shubham-lal.jpg" 
                             alt="me" 
                             className="home__img" 
                             loading="lazy" 

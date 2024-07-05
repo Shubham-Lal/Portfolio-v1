@@ -50,7 +50,7 @@
 
 .work__img {
     width: 295px;
-    height: 365px;
+    height: 300px;
     object-fit: contain;
     border-radius: 1rem;
     margin-bottom: var(--mb-1);
@@ -177,8 +177,4 @@
     .work__filters {
         column-gap: 0;
     }
-
-    /* .work__framework {
-        font-size: var(--small-font-size);
-    } */
 }
