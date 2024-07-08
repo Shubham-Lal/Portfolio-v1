@@ -44,9 +44,11 @@
 }
 
 .about__description a {
-    color: black;
-    font-weight: bold;
     text-decoration: underline;
+}
+
+.about__description a:hover {
+    color: black;
 }
 
 .button__icon {
@@ -66,11 +68,6 @@
 
     .about__box {
         padding: 0.75rem 0.5rem;
-    }
-
-    .about__data,
-    .about__description {
-        text-align: center;
     }
 
     .about__info {

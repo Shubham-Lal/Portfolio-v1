@@ -9,7 +9,7 @@ export default function Skills() {
     <section className="skills section" id="skills">
       <div className="section__header">
         <h2 className="section__title">Skills</h2>
-        <span className="section__subtitle">My Technical Level</span>
+        <span className="section__subtitle">My Technical Aspects</span>
       </div>
 
       <div className="skills__container container grid">

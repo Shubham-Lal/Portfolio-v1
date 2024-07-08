@@ -28,7 +28,7 @@ export default function Services() {
                 <div className="services__content">
                     <div>
                         <i className="uil uil-web-grid services__icon"></i>
-                        <h3 className="services__title">Web <br /> Designer</h3>
+                        <h3 className="services__title">Web <br /> Developer</h3>
                     </div>
 
                     <span className="services__button" onClick={() => toggleTab(1)}>
@@ -40,20 +40,12 @@ export default function Services() {
                         <div className="services__modal-content">
                             <i className="uil uil-times services__modal-close" onClick={() => toggleTab(0)}></i>
 
-                            <h3 className="services__modal-title">Web Designing</h3>
+                            <h3 className="services__modal-title">Web Development</h3>
                             <p className="services__modal-description">
                                 Services with more than 1 year of experience. Currently building web applications at <a href="https://github.com/Casuals4Fun" style={{ fontWeight: 'bold', color: 'black', textDecoration: 'underline' }} target="_blank" rel="noopener noreferrer">Casuals4Fun</a>
                             </p>
 
                             <ul className="services__modal-services grid">
-                                <li className="services__modal-service">
-                                    <i className="uil uil-check-circle services__modal-icon"></i>
-                                    <p className="services__modal-info">Have complete understanding how OOPs works but I'm more efiicient in algorithms.</p>
-                                </li>
-                                <li className="services__modal-service">
-                                    <i className="uil uil-check-circle services__modal-icon"></i>
-                                    <p className="services__modal-info">I develop super-efficient & reliable backend endpoints.</p>
-                                </li>
                                 <li className="services__modal-service">
                                     <i className="uil uil-check-circle services__modal-icon"></i>
                                     <p className="services__modal-info">Pro in creative UI design.</p>
@@ -91,11 +83,11 @@ export default function Services() {
                             <ul className="services__modal-services grid">
                                 <li className="services__modal-service">
                                     <i className="uil uil-check-circle services__modal-icon"></i>
-                                    <p className="services__modal-info">Pro in creative UI design.</p>
+                                    <p className="services__modal-info">Pro in creative UI design</p>
                                 </li>
                                 <li className="services__modal-service">
                                     <i className="uil uil-check-circle services__modal-icon"></i>
-                                    <p className="services__modal-info">Cunning & ambitious with the Game projects completed so far.</p>
+                                    <p className="services__modal-info">Cunning & ambitious with the Game projects completed so far</p>
                                 </li>
                             </ul>
                         </div>
@@ -126,11 +118,11 @@ export default function Services() {
                             <ul className="services__modal-services grid">
                                 <li className="services__modal-service">
                                     <i className="uil uil-check-circle services__modal-icon"></i>
-                                    <p className="services__modal-info">Have complete understanding how OOPs works but I'm more efiicient in algorithms.</p>
+                                    <p className="services__modal-info">Have complete understanding how OOPs works but I'm more efiicient in algorithms</p>
                                 </li>
                                 <li className="services__modal-service">
                                     <i className="uil uil-check-circle services__modal-icon"></i>
-                                    <p className="services__modal-info">Software design & mockups for companies.</p>
+                                    <p className="services__modal-info">Software design & mockups</p>
                                 </li>
                             </ul>
                         </div>

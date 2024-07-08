@@ -52,7 +52,7 @@ export default function Contact() {
                             <span className="contact__card-data">im.shubhamlal@gmail.com</span>
 
                             <a href="mailto:im.shubhamlal@gmail.com" className="contact__button">
-                                Write me
+                                Mail
                                 <i className="bx bx-right-arrow-alt contact__button-icon"></i>
                             </a>
                         </div>
@@ -64,7 +64,7 @@ export default function Contact() {
                             <span className="contact__card-data">+91 91631 61834</span>
 
                             <a
-                                href={`https://api.whatsapp.com/send?phone=${import.meta.env.VITE_PHONE_NO}&text=Namaste Shubham`}
+                                href={`https://api.whatsapp.com/send?phone=${import.meta.env.VITE_PHONE_NO}&text=Hello Shubham`}
                                 className="contact__button"
                                 target="_blank" rel="noopener noreferrer"
                             >
@@ -74,13 +74,13 @@ export default function Contact() {
                         </div>
                         {/* CARD 3 */}
                         <div className="contact__card">
-                            <i className="bx bxl-github contact__card-icon"></i>
+                            <i className="uil uil-linkedin contact__card-icon"></i>
 
-                            <h3 className="contact__card-title">Github</h3>
-                            <span className="contact__card-data">Shubham-Lal</span>
+                            <h3 className="contact__card-title">LinkedIn</h3>
+                            <span className="contact__card-data">shubham-lal</span>
 
-                            <a href="https://github.com/Shubham-Lal/DISCUSSIONS/issues/1" className="contact__button" target="_blank" rel="noopener noreferrer">
-                                Discuss
+                            <a href="https://www.linkedin.com/in/shubham-lal" className="contact__button" target="_blank" rel="noopener noreferrer">
+                                Connect
                                 <i className="bx bx-right-arrow-alt contact__button-icon"></i>
                             </a>
                         </div>

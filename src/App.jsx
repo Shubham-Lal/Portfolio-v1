@@ -19,7 +19,7 @@ function App() {
       <Toaster
         duration={5000}
         position='top-center'
-        richColors
+        theme='dark'
       />
       <div>
         <Header />

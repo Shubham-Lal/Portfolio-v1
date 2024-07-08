@@ -1,6 +1,6 @@
 .home {
     padding: 0;
-    height: 100dvh;
+    height: 100svh;
     display: grid;
     place-content: center;
 }
@@ -190,9 +190,9 @@
         height: 200px;
     } */
 
-    .home__data {
+    /* .home__data {
         grid-column: 1/3;
-    }
+    } */
 
     .home__scroll {
         display: none;
