@@ -4,7 +4,7 @@ export default function Footer() {
     return (
         <footer className="footer">
             <div className="footer__container container">
-                <h1 className="footer__title">Shubham</h1>
+                <h1 className="footer__title">Socials</h1>
 
                 <div className="center-flex">
                     <a href="https://www.buymeacoffee.com/lalshubham" target="_blank" rel="noopener noreferrer">
@@ -24,7 +24,7 @@ export default function Footer() {
                     </a>
                 </div>
 
-                <span className="footer__copy">&#169; WeKnewHow Inc. All rights reserved</span>
+                <span className="footer__copy">Made with 🖤 by <a href="https://shubhamlal.in" target="_blank" rel="noreferrer">Shubham</a></span>
             </div>
         </footer>
     )
