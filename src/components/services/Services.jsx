@@ -112,7 +112,7 @@ export default function Services() {
 
                             <h3 className="services__modal-title">Software Programming</h3>
                             <p className="services__modal-description">
-                                More than 2 year of knowledge. Currently building softwares at <a href="https://github.com/Casuals4Fun" style={{ fontWeight: 'bold', color: 'black', textDecoration: 'underline' }} target="_blank" rel="noopener noreferrer">Casuals4Fun</a>
+                                More than 2 year of knowledge. Currently building applications at <a href="https://github.com/Casuals4Fun" style={{ fontWeight: 'bold', color: 'black', textDecoration: 'underline' }} target="_blank" rel="noopener noreferrer">Casuals4Fun</a>
                             </p>
 
                             <ul className="services__modal-services grid">

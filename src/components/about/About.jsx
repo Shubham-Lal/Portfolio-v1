@@ -11,7 +11,7 @@ export default function About() {
             <div className="section__shadow" />
 
             <div className="about__container container grid">
-                <img src='/others/shubham-lal.jpg' alt="Shubham-Second" className="about__img" loading="lazy" />
+                <img src='/others/shubham-lal.png' alt="Shubham-Second" className="about__img" loading="lazy" />
                 <div className="about__data">
                     <Info />
 

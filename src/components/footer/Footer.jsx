@@ -24,7 +24,7 @@ export default function Footer() {
                     </a>
                 </div>
 
-                <span className="footer__copy">Made with 🖤 by <a href="https://shubhamlal.in" target="_blank" rel="noreferrer">Shubham</a></span>
+                <span className="footer__copy">Made with 🖤 by Shubham</span>
             </div>
         </footer>
     )
